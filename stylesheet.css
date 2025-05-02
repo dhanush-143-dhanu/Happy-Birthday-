@@ -1,11 +1,11 @@
 body {
 	/*background-color: #FFDAB9;	*/
 	background-color: #000;
-	-webkit-transition:background-color linear 5s;
-	-moz-transition:background-color linear 5s;
-	-o-transition:background-color linear 5s;
-	-ms-transition:background-color linear 5s;
-	transition:background-color linear 5s;
+	-webkit-transition:background-color linear 25s;
+	-moz-transition:background-color linear 25s;
+	-o-transition:background-color linear 25s;
+	-ms-transition:background-color linear 25s;
+	transition:background-color linear 25s;
 	overflow-x:hidden;
 }
 .container {
@@ -128,11 +128,11 @@ body {
 
 .bulb-glow-yellow {
 	background-image: url('bulb_yellow.png');
-	-webkit-animation: bulb_glow_yellow linear 5s;
-	-moz-animation: bulb_glow_yellow linear 5s;
-	-o-animation: bulb_glow_yellow linear 5s;
-	-ms-animation: bulb_glow_yellow linear 5s;
-	animation: bulb_glow_yellow linear 5s;
+	-webkit-animation: bulb_glow_yellow linear 25s;
+	-moz-animation: bulb_glow_yellow linear 25s;
+	-o-animation: bulb_glow_yellow linear 25s;
+	-ms-animation: bulb_glow_yellow linear 25s;
+	animation: bulb_glow_yellow linear 25s;
 }
 
 @-webkit-keyframes bulb_glow_yellow {
@@ -203,11 +203,11 @@ body {
 
 .bulb-glow-red {
 	background-image: url('bulb_red.png');
-	-webkit-animation: bulb_glow_red linear 5s;
-	-moz-animation: bulb_glow_red linear 5s;
-	-o-animation: bulb_glow_red linear 5s;
-	-ms-animation: bulb_glow_red linear 5s;
-	animation: bulb_glow_red linear 5s;
+	-webkit-animation: bulb_glow_red linear 25s;
+	-moz-animation: bulb_glow_red linear 25s;
+	-o-animation: bulb_glow_red linear 25s;
+	-ms-animation: bulb_glow_red linear 25s;
+	animation: bulb_glow_red linear 25s;
 }
 
 @-webkit-keyframes bulb_glow_red {
@@ -277,11 +277,11 @@ body {
 }
 .bulb-glow-blue {
 	background-image: url('bulb_blue.png');
-	-webkit-animation: bulb_glow_blue linear 5s;
-	-moz-animation: bulb_glow_blue linear 5s;
-	-o-animation: bulb_glow_blue linear 5s;
-	-ms-animation: bulb_glow_blue linear 5s;
-	animation: bulb_glow_blue linear 5s;
+	-webkit-animation: bulb_glow_blue linear 25s;
+	-moz-animation: bulb_glow_blue linear 25s;
+	-o-animation: bulb_glow_blue linear 25s;
+	-ms-animation: bulb_glow_blue linear 25s;
+	animation: bulb_glow_blue linear 25s;
 }
 
 @-webkit-keyframes bulb_glow_blue {
@@ -352,11 +352,11 @@ body {
 
 .bulb-glow-green {
 	background-image: url('bulb_green.png');
-	-webkit-animation: bulb_glow_green linear 5s;
-	-moz-animation: bulb_glow_green linear 5s;
-	-o-animation: bulb_glow_green linear 5s;
-	-ms-animation: bulb_glow_green linear 5s;
-	animation: bulb_glow_green linear 5s;
+	-webkit-animation: bulb_glow_green linear 25s;
+	-moz-animation: bulb_glow_green linear 25s;
+	-o-animation: bulb_glow_green linear 25s;
+	-ms-animation: bulb_glow_green linear 25s;
+	animation: bulb_glow_green linear 25s;
 }
 
 @-webkit-keyframes bulb_glow_green {
@@ -1182,15 +1182,15 @@ audio {
 	}
 }
 .balloons-rotate-behaviour-two {
-	-webkit-animation: balloons_rotate_two linear 10s infinite;
+	-webkit-animation: balloons_rotate_two linear 30s infinite;
 	-webkit-transform: rotate(-20deg);
-	-moz-animation: balloons_rotate_two linear 10s infinite;
+	-moz-animation: balloons_rotate_two linear 30s infinite;
 	-moz-transform: rotate(-20deg);
-	-o-animation: balloons_rotate_two linear 10s infinite;
+	-o-animation: balloons_rotate_two linear 30s infinite;
 	-o-transform: rotate(-20deg);
-	-ms-animation: balloons_rotate_two linear 10s infinite;
+	-ms-animation: balloons_rotate_two linear 30s infinite;
 	-ms-transform: rotate(-20deg);
-	animation: balloons_rotate_two linear 10s infinite;
+	animation: balloons_rotate_two linear 30s infinite;
 	transform: rotate(-20deg);
 }
 @-webkit-keyframes balloons_rotate_two {
